@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         DynArray<String> test = new DynArray<>();
         test.add("test");
-        test.add("bilau");
+        test.add("testt");
         String[] arr = test.get();
         for(String p : arr){
             System.out.println(p);
